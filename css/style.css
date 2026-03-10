@@ -1,9 +1,70 @@
-body { font-family: Arial; margin: 0; background:#0b1a2f; color:white;}
-header { display:flex; justify-content:space-between; padding:20px; background:#081224;}
-.logo { font-size:28px; font-weight:bold; color:#00c3ff; }
-nav a { color:white; margin-left:15px; text-decoration:none; }
-.hero { text-align:center; padding:80px 20px; }
-.btn-main { background:#00c3ff; padding:10px 20px; color:white; border:none; text-decoration:none; }
-.services { display:flex; justify-content:center; margin:50px 0; }
-.service { margin:0 20px; text-align:center; }
-footer { text-align:center; padding:20px; background:#081224;}
+
+body{
+background:#0a0a0a;
+color:white;
+font-family:Arial;
+margin:0;
+text-align:center;
+}
+
+.logo{
+width:280px;
+margin:10px;
+}
+
+header{
+background:#111;
+padding:20px;
+}
+
+nav a{
+color:#00eaff;
+margin:10px;
+text-decoration:none;
+}
+
+.hero{
+padding:80px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:#111;
+padding:25px;
+margin:15px;
+border-radius:10px;
+width:200px;
+box-shadow:0 0 10px #00eaff;
+}
+
+.form{
+margin-top:100px;
+}
+
+input{
+display:block;
+margin:10px auto;
+padding:10px;
+}
+
+button{
+padding:10px 20px;
+background:#00eaff;
+border:none;
+cursor:pointer;
+}
+
+table{
+margin:auto;
+border-collapse:collapse;
+}
+
+td,th{
+border:1px solid #333;
+padding:10px;
+}
